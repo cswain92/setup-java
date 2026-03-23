@@ -12,6 +12,6 @@ on:
 jobs:
   call-basic-validation:
     name: Basic validation
-    uses: chiranjib-swain/reusable-workflows/.github/workflows/basic-validation.yml@main
+    uses: chiranjib-swain/reusable-workflows/.github/workflows/basic-validation.yml@clear-audit-annotations
     with:
       node-version: '24.x'
